@@ -59,7 +59,7 @@
     </header>
 
     <section>
-        <div class="contatoTitle container mt-3 mb- ">
+        <div class="contatoTitle container mt-3">
             <div class="row ">
                 <div class="col-xs-12">
                     <span class="destaqueHome">Contato</span>
@@ -72,7 +72,7 @@
         <div class="container">
             <div class="row">
                 <div class="duvidas ml-4 col-xs-12 col-sm-11 col-md-5 mt-5">
-                    <form>
+                    <form action="#" onsubmit="return validarForm()">
                         <div class="form-group">
                             <label for="exampleFormControlInput1">Digite seu email</label>
                             <input type="email" class="form-control" id="exampleFormControlInput1"
@@ -97,7 +97,7 @@
                 </div>
 
                 <div class="troca ml-4 col-xs-12 col-sm-11 col-md-6 mt-5">
-                    <form>
+                    <form action="#" onsubmit="return validarForm()">
                         <div class="form-row">
                             <div class="form-group col-md-3">
                                 <label for="inputEmail4 col-sm-3">Email</label>
@@ -129,10 +129,11 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Conte com detalhes</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <label for="textarea">Conte com detalhes</label>
+                            <textarea class="form-control" id="textarea" rows="3"></textarea>
                         </div>
                         <button type="submit" class="btn btn-dark">Enviar</button>
+                        <div id="mensagem"></div>
                     </form>
                 </div>
             </div>
@@ -140,47 +141,47 @@
     </section>
 
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="info col-xs-12 col-sm-4 col-md-3 ml-3">
-                    <h6>Informações</h6>
-                    <ul class="footer-margin">
-                        <li><a href="#">Prazo de entrega</a></li>
-                        <li><a href="#">Troca e devoluções</a></li>
-                        <li><a href="#">Termos e condições</a></li>
-                        <li><a href="#">Rastreie seu pedido</a></li>
-                    </ul>
-                </div>
-
-                <div class="sobre col-xs-12 col-sm-4 col-md-4 ml-3">
-                    <h6>Sobre nós</h6>
-                    <ul class="footer-margin">
-                        <li><a href="#">Sobre a marca</a></li>
-                        <li><a href="#">Nossas lojas</a></li>
-                        <li><a href="#">Política de segurança e privacidade</a></li>
-                    </ul>
-                </div>
-
-                <div class="newsletter col-xs-12  col-sm-4 col-md-4 ml-3">
-                    <div class="col-xs-12 mb-1">
+            <div class="container">
+                <div class="row">
+                    <div class="logo-footer col-xl-12 text-center mb-5">
+                        <h3>Mayzo</h3>
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-google"></i></a>
                         <a href="#"><i class="fab fa-youtube"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
-
-                    <h6>Nosso newsletter</h6>
-                    <form>
-                        <div class="form-group col-xs-12">
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Seu email...">
-                            <button type="submit" class="btn btn-dark mt-1">Enviar</button>
-                        </div>
-                    </form>
+                    <div class="info text-center col-xs-12 col-sm-12 col-md-4 col-xl-4 ml-4">
+                        <h6>Informações</h6>
+                        <ul class=" footer-margin">
+                            <li><a href="#">Prazo de entrega</a></li>
+                            <li><a href="#">Troca e devoluções</a></li>
+                            <li><a href="#">Termos e condições</a></li>
+                            <li><a href="#">Rastreie seu pedido</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="sobre text-center col-xs-12 col-sm-12 col-md-3 col-xl-3 ml-3">
+                        <h6>Sobre nós</h6>
+                        <ul class="footer-margin">
+                            <li><a href="#">Sobre a marca</a></li>
+                            <li><a href="#">Nossas lojas</a></li>
+                            <li><a href="#">Política de segurança </a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="newsletter text-center col-xs-12 col-sm-12 col-md-3 col-xl-3">
+                        <h6>Nosso newsletter</h6>
+                        <form>
+                            <div class="form-group col-xs-12">
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Seu email...">
+                                <button type="submit" class="btn btn-dark mt-1">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
