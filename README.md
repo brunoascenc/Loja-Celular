@@ -1,3 +1,8 @@
 #Mayzo
-Primeiro projeto voltado para o E-Commerce feito com
-bootstrap, html, css e javascript.
+Pagina de E-Commerce de celulares.
+
+Feito com
+
+-Bootstrap
+-HTML
+-CSS
