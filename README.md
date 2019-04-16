@@ -1,9 +1,9 @@
 #Mayzo
-Pagina de E-Commerce de celulares.
+Mayzo é um site responsivo sobre vendas online de celulares feito com HTML, CSS e Bootstrap4.
 
-Feito com
+Feito com:
 
--Bootstrap
+-Bootstrap 4
 
 -HTML
 
